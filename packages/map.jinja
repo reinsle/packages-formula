@@ -1,0 +1,11 @@
+{% set pkg = salt['grains.filter_by']({
+    'Debian': {
+        'git_pkgs': ['git', 'git-core', 'tig', ],
+        'net_pkgs': ['tcpdump', 'nmap', 'iftop', ],
+    },
+    'RedHat': {
+        'git_pkgs': ['git', 'git-core', 'tig', ],
+        'net_pkgs': ['tcpdump', 'nmap', 'iftop', ],
+    },
+}, merge=salt['pillar.get']('packages:lookup')) %}
+
