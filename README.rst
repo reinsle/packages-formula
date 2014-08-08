@@ -26,5 +26,5 @@ Installs git packages to work with git
 ``packages.net``
 ----------------
 
-Installs git packages to work with git
+Installs net packages for debugging net connections like tcpdump
 
