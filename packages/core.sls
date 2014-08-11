@@ -3,4 +3,4 @@
 core-packages:
   pkg:
     - installed
-    - pkgs: {{ pkg.core|json }}
+    - pkgs: {{ pkg.core_pkgs|json }}
