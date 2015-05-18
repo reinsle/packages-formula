@@ -16,15 +16,6 @@ Available states
 ``packages``
 ------------
 
-Includes packages.git and packages.net to install needed packages
+Includes packages out of pillar data
 
-``packages.git``
-----------------
-
-Installs git packages to work with git
-
-``packages.net``
-----------------
-
-Installs net packages for debugging net connections like tcpdump
 
